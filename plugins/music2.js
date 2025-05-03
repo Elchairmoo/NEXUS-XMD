@@ -93,7 +93,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "*𝐁.𝐌.𝐁-𝐗𝐌𝐃*"
+              caption: "*NEXUS-XMD*"
             }, { quoted: receivedMsg });
             break;
 

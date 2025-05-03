@@ -78,3 +78,9 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
 
 
 
+<p align="center">
+    <a href="https://pkdriller.vercel.app/">
+        <img height="70" title="Support Group" src="https://img.shields.io/badge/Buy%20Bot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+    </a>
+</p>
+

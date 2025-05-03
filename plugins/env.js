@@ -10,7 +10,7 @@ function isEnabled(value) {
 
 cmd({
     pattern: "env",
-    alias: ["setting", "allvar"],
+    alias: ["settings","setting", "allvar"],
     desc: "Settings of bot",
     category: "menu",
     react: "⤵️",
@@ -19,9 +19,9 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭〔 *【NEXUS-𝐗𝐌𝐃】* 〕⊷
+        let envSettings = `╭〔 *【𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃】* 〕⊷
 ┃▸╭───────────
-┃▸┃๏ *ENV SETTINGS 🗿*
+┃▸┃๏ *ENV SETTINGS 👻*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━〔 *Enabled Disabled* 〕━━┈⊷
@@ -48,15 +48,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg'}, // Image URL
+                image: { url: 'https://i.ibb.co/DDjPWXGT/lordcasey.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363288304618280@newsletter',
-                        newsletterName: "𝐓𝐇𝐄 NEXUS-XMD 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
+                        newsletterJid: '120363302677217436@newsletter',
+                        newsletterName: "𝐓𝐇𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
                         serverMessageId: 143
                     }
                 }
@@ -66,7 +66,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send an audio file
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/wify3q.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/310dic.aac' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
